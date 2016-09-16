@@ -4,6 +4,19 @@ package com.faruzzy.deitel.chapt5;
  * @author Roland
  */
 public class Exercise_5_15 {
+    /*
+     * Print the following:
+         *
+         **
+         ***
+         ****
+         *****
+         ******
+         *******
+         ********
+         *********
+         **********
+     */
     private static void printTriangleA() {
         for (int j = 1; j <= 10; j++) {
             for (int k = 1; k <= j; k++)
@@ -12,6 +25,22 @@ public class Exercise_5_15 {
         }
     }
 
+    /*
+     * Print the following:
+
+        **********
+        *********
+        ********
+        *******
+        ******
+        *****
+        ****
+        ***
+        **
+        *
+
+     */
+
     private static void printTriangleB() {
         for (int j = 10; j >= 1; j--) {
             for (int k = 1; k <= j; k++)
@@ -19,6 +48,21 @@ public class Exercise_5_15 {
             System.out.println();
         }
     }
+
+    /*
+     *  Print the following:
+
+        **********
+         *********
+          ********
+           *******
+            ******
+             *****
+              ****
+               ***
+                **
+                 *
+     */
 
     private static void printTriangleC() {
         for (int j = 10; j >= 1; j--) {
@@ -36,15 +80,32 @@ public class Exercise_5_15 {
         }
     }
 
-    /*private static void printTriangleD() {
-        for (int k = 10; k < 10; k++) {
-            for (int j = 1; j < 10; j++) {
+    /**
+      * Print the following:
+
+       *
+       **
+       ***
+       ****
+       *****
+       ******
+       *******
+       ********
+       *********
+     */
+    private static void printTriangleD() {
+        for (int k = 10; k >= 1; k--) {
+            int j;
+            for (j = 1; j < k; j++) {
                 System.out.print(" ");
             }
 
-            int c = 10 -
+            int c = 10 - j;
+            for (int q = 1; q <= c; q++)
+                System.out.print("*");
+            System.out.println();
         }
-    }*/
+    }
 
     public static void main(String[] args) {
         printTriangleA();
@@ -54,6 +115,9 @@ public class Exercise_5_15 {
         System.out.println();
 
         printTriangleC();
+        System.out.println();
+
+        printTriangleD();
         System.out.println();
     }
 }
