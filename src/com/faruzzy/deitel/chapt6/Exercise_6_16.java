@@ -13,9 +13,9 @@ public class Exercise_6_16 {
         int b = 9;
 
         if (isMultiple(a, b)) {
-            System.out.printf("%d is a mulitple of %d", b, a) ;
+            System.out.printf("%d is a multiple of %d", b, a) ;
         } else {
-            System.out.printf("%d is not a mulitple of %d", b, a) ;
+            System.out.printf("%d is not a multiple of %d", b, a) ;
         }
     }
 }
