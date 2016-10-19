@@ -2,6 +2,7 @@ package com.faruzzy.deitel.chapt6;
 
 import java.util.Random;
 import java.util.Scanner;
+import com.faruzzy.util.u;
 
 /**
  * @Roland Pangu
@@ -22,18 +23,18 @@ public class Exercise_6_30 {
             do {
                 System.out.printf("How much is %d times %d ? ", aOperand, bOperand);
                 userAnswer = Integer.parseInt(input.next());
-                System.out.println();
+                u.println();
 
                 check = isAnswerCorrect(answer, userAnswer);
                 if (!check)
-                    System.out.println("No. Please try again!");
+                    u.println("No. Please try again!");
                 else
-                    System.out.println("Very good!");
+                    u.println("Very good!");
             } while (!check);
 
         }
 
-        System.out.println("Great stuff, keep coming back!");
+        u.println("Great stuff, keep coming back!");
     }
 
     private static boolean isAnswerCorrect(int answer, int userAnswer) {
