@@ -5,7 +5,7 @@ import java.util.Scanner;
 import com.faruzzy.util.u;
 
 /**
- * @Roland Pangu
+ * @author Roland Pangu
  */
 public class Exercise_6_30 {
     private static int aOperand = 0;
