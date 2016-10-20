@@ -7,7 +7,7 @@ import com.faruzzy.util.u;
 /**
  * @author Roland Pangu
  */
-public class Guesssing_Number {
+public class Exercise_6_33 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         Random rdm = new Random();
