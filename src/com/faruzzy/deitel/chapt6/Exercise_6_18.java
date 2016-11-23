@@ -6,7 +6,7 @@ import java.util.Scanner;
  * @author Roland
  */
 public class Exercise_6_18 {
-    public static void main(String[] args) {
+    public static void main(String... args) {
         squareOfAsterisks();
     }
 

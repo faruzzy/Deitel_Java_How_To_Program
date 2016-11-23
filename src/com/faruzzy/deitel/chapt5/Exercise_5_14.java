@@ -4,7 +4,7 @@ package com.faruzzy.deitel.chapt5;
  * @author Roland
  */
 public class Exercise_5_14 {
-    public static void main(String[] args) {
+    public static void main(String... args) {
         double amount;
         double principal = 1000.0;
 

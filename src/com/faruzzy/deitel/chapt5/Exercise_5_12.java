@@ -4,7 +4,7 @@ package com.faruzzy.deitel.chapt5;
  * @author Roland
  */
 public class Exercise_5_12 {
-    public static void main(String[] args) {
+    public static void main(String... args) {
         int odd = 1;
         for (int i = 1; i <= 15; i++) {
             if (i % 2 != 0)

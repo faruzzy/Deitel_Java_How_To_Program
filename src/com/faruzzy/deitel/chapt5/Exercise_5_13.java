@@ -17,7 +17,7 @@ public class Exercise_5_13 {
         return result;
     }
 
-    public static void main(String[] args) {
+    public static void main(String... args) {
         System.out.printf("%s %5s\n", "Value", "Factorial");
         for (int i = 1; i <= 5; i++) {
             System.out.printf("%d %5d\n", i, factorials(i));

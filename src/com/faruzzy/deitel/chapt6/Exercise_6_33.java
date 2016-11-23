@@ -8,7 +8,7 @@ import com.faruzzy.util.u;
  * @author Roland Pangu
  */
 public class Exercise_6_33 {
-    public static void main(String[] args) {
+    public static void main(String... args) {
         Scanner input = new Scanner(System.in);
         Random rdm = new Random();
         int numberToGuess = 1 + rdm.nextInt(999);

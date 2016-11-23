@@ -6,7 +6,7 @@ import java.util.Scanner;
  * @author Roland Pangu
  */
 public class Exercise_6_20 {
-    public static void main(String[] args) {
+    public static void main(String... args) {
         Scanner input = new Scanner(System.in);
 
         System.out.print("Please enter the radius of the Circle: ");

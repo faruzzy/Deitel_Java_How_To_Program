@@ -8,7 +8,7 @@ public class Exercise_6_16 {
         return (b % a) == 0;
     }
 
-    public static void main(String[] args) {
+    public static void main(String... args) {
         int a = 3;
         int b = 9;
 

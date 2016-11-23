@@ -6,7 +6,7 @@ import java.util.Scanner;
  * @author Roland
  */
 public class Exercise_5_11 {
-    public static void main(String[] args) {
+    public static void main(String... args) {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Please enter the number of input: ");
         int input = Integer.parseInt(scanner.next());

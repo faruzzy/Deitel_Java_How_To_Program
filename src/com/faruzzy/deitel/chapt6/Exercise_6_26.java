@@ -6,7 +6,7 @@ import java.util.Scanner;
  * @author Roland Pangu
  */
 public class Exercise_6_26 {
-    public static void main(String[] args) {
+    public static void main(String... args) {
         Scanner input = new Scanner(System.in);
         System.out.print("Please enter a number to be reversed: ");
         int value = Integer.parseInt(input.next());

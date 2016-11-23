@@ -12,7 +12,7 @@ public class Exercise_6_31 {
     private static int bOperand = 0;
     private static int answer = 0;
 
-    public static void main(String[] args) {
+    public static void main(String... args) {
         Scanner input = new Scanner(System.in);
         int userAnswer;
         boolean check;

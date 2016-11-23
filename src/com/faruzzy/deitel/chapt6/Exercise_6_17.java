@@ -8,7 +8,7 @@ public class Exercise_6_17 {
         return (value % 2) == 0;
     }
 
-    public static void main(String[] args) {
+    public static void main(String... args) {
         if (isEven(12))
             System.out.println("Is even");
         else

@@ -7,7 +7,7 @@ import java.util.Scanner;
  */
 
 public class Exercise_6_28 {
-	public static void main(String[] args) {
+	public static void main(String... args) {
 		System.out.print("Enter your average: ");
 		Scanner input = new Scanner(System.in);
 		System.out.println();
