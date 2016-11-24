@@ -37,7 +37,6 @@ public class Exercise_7_19 {
     private static void selectFirstClassSeat() {
         do {
             int index = rand.nextInt(6);
-            u.println("index selected: " + index);
             if (!seats[index]) {
                 seats[index] = true;
                 break;
