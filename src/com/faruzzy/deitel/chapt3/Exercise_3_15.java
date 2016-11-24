@@ -3,12 +3,12 @@ package com.faruzzy.deitel.chapt3;
 /**
  * @author Roland
  */
-public class Exercise_3_15_Date {
+public class Exercise_3_15 {
     private int month;
     private int day;
     private int year;
 
-    public Exercise_3_15_Date(int month, int day, int year) {
+    public Exercise_3_15(int month, int day, int year) {
         this.month = month;
         this.day = day;
         this.year = year;
@@ -31,7 +31,7 @@ public class Exercise_3_15_Date {
     }
 
     public static void main(String... args) {
-        Exercise_3_15_Date date = new Exercise_3_15_Date(4, 3, 1998);
+        Exercise_3_15 date = new Exercise_3_15(4, 3, 1998);
         date.setMonth(3);
         date.setDay(3);
         date.setYear(1999);
