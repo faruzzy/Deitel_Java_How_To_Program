@@ -12,6 +12,16 @@ public final class u {
         System.out.println(arg);
     }
 
+    public static void printf(String... args) {
+        System.out.printf(args[0], args[1]);
+    }
+
+    public static <T> void printArray(T[] array) {
+        for (T val : array)
+            System.out.printf("%s ", val);
+        println();
+    }
+
     public static void println() {
         System.out.println();
     }
