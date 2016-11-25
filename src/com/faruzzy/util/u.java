@@ -22,6 +22,15 @@ public final class u {
         println();
     }
 
+    public static <T> void printArray(T[][] array) {
+        for (T[] row : array) {
+            for (T val : row)
+                System.out.printf("%s ", val);
+            println();
+        }
+    }
+
+
     public static void println() {
         System.out.println();
     }
