@@ -12,9 +12,15 @@ public final class u {
         System.out.println(arg);
     }
 
+    public static void println() { System.out.println(); }
+
     public static void printf(String... args) {
         System.out.printf(args[0], args[1]);
     }
+
+    public static void printf(String s, int i) { System.out.printf(s, i); }
+
+    public static void printf(String s, double d) { System.out.printf(s, d); }
 
     public static <T> void printArray(T[] array) {
         for (T val : array)
@@ -28,10 +34,5 @@ public final class u {
                 System.out.printf("%s ", val);
             println();
         }
-    }
-
-
-    public static void println() {
-        System.out.println();
     }
 }
